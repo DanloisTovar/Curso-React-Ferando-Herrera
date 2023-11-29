@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 
 export const FirstApp = ({ saludo, nombre = 'Goku', numero = 1 }) => {
-    console.log();
-
     return (
         <>
             <h1>{`${saludo} ${nombre}`}</h1>
@@ -16,4 +14,10 @@ FirstApp.propTypes = {
     saludo: PropTypes.string.isRequired,
     nombre: PropTypes.string.isRequired,
     numero: PropTypes.number.isRequired,
+};
+
+FirstApp.defaultProps = {
+    saludo: 'Hola NO soy',
+    nombre: 'Danlois',
+    numero: 123,
 };
