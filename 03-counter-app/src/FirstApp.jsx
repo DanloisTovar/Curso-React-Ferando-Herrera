@@ -1,7 +1,8 @@
 export const FirstApp = () => {
     return (
-        <div>
+        <>
             <h1>Hola mundo!!!</h1>
-        </div>
+            <p>Mi primera aplicación</p>
+        </>
     );
 };
