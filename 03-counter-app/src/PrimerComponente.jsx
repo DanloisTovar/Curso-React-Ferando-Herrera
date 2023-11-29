@@ -1,17 +1,16 @@
-const imprimeNombre = (nombre) => {
-    return `Hola soy ${nombre}`;
-};
-const nombreImpreso = imprimeNombre('Danlois');
-
-const arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
-const nuevoMensaje = {
-    nombre: 'Danlois',
-    edad: 29,
-    ubicacion: 'Venezuela',
-};
-
 export const PrimerComponente = () => {
+    const imprimeNombre = (nombre) => {
+        return `Hola soy ${nombre}`;
+    };
+    const nombreImpreso = imprimeNombre('Danlois');
+
+    const arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+    const nuevoMensaje = {
+        nombre: 'Danlois',
+        edad: 29,
+        ubicacion: 'Venezuela',
+    };
     return (
         <>
             <h2>Primer Componente!!</h2>

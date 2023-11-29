@@ -6,7 +6,7 @@ import './style.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <FirstApp />
+        <FirstApp nombre="Danlois" saludo="Hola Soy," numero={123} />
         <PrimerComponente />
     </React.StrictMode>,
 );
