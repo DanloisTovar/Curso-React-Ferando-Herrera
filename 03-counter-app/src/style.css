@@ -5,3 +5,7 @@ body {
     font-size: 1.3rem;
     padding: 70px;
 }
+
+hr {
+    border-color: aqua;
+}

@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 
-export const FirstApp = ({ saludo, nombre = 'Goku', numero = 1 }) => {
+export const FirstApp = ({ saludo, nombre, numero = 1 }) => {
+    console.log('saludo');
+    console.log('')
     return (
         <>
             <h1>{`${saludo} ${nombre}`}</h1>
@@ -18,6 +20,6 @@ FirstApp.propTypes = {
 
 FirstApp.defaultProps = {
     saludo: 'Hola NO soy',
-    nombre: 'Danlois',
+    nombre: 'Goku',
     numero: 123,
 };
