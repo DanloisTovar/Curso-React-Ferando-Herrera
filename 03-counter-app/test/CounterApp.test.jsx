@@ -41,9 +41,11 @@ describe('Pruebas en <CounterApp />', () => {
         expect(screen.getByText('0')).toBeTruthy();
     });
 
-    test('Incrementar en "+1" con el boton click', () => {
+    test('Incrementar 2 veces y que l resultado sea 2', () => {
         render(<CounterApp />);
         fireEvent.click(screen.getByText('+1'));
         expect(screen.getByText('1')).toBeTruthy();
+        fireEvent.click(screen.getByText('+1'));
+        expect(screen.getByText('2')).toBeTruthy();
     });
 });
