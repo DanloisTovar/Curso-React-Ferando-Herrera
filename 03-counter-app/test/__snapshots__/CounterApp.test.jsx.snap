@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <CounterApp /> debería coincidir con la instantánea 1`] = `
+<DocumentFragment>
+  <h1>
+    CounterApp
+  </h1>
+  <h2>
+    0
+  </h2>
+  <button>
+    +1
+  </button>
+  <button>
+    -1
+  </button>
+  <button>
+    Reset
+  </button>
+</DocumentFragment>
+`;
