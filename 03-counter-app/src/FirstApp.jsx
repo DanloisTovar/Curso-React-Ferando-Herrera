@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 
 export const FirstApp = ({ saludo, nombre, numero = 1 }) => {
-    console.log('saludo');
-    console.log('')
+    // console.log('saludo');
+
     return (
         <>
             <h1>{`${saludo} ${nombre}`}</h1>
