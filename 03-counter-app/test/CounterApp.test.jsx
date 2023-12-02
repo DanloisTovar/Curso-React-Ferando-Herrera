@@ -25,6 +25,8 @@ describe('Pruebas en <CounterApp />', () => {
         render(<CounterApp />);
         fireEvent.click(screen.getByText('+1'));
         fireEvent.click(screen.getByText('Reset'));
+        // se debe agregar el atributo del div "aria-label='btn-reset' o id='btn-reset', en el html"
+        // fireEvent.click(screen.getByRole('button', { name: 'btn-reset' }));
         expect(screen.getByText('0')).toBeTruthy();
     });
 
