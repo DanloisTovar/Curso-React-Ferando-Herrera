@@ -1,5 +1,5 @@
 import { describe, test, expect } from '@jest/globals';
-import { getAllByText, render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { FirstApp } from '../src/FirstApp';
 
 describe('Test de FirstApp', () => {
